@@ -8,22 +8,22 @@ class Employee
 
     public function start()
     {
-        return "Starting at 8 am...";
+        return 'Starting at 8 am...';
     }
 
     public function work()
     {
-        return "Write code...";
+        return 'Write code...';
     }
 
     public function takePause()
     {
-        return "Relax ...";
+        return 'Relax ...';
     }
 
     public function stop()
     {
-        return "Stopping...";
+        return 'Stopping...';
     }
 
     public function go()

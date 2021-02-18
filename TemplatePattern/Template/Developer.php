@@ -11,11 +11,11 @@ class Developer extends EmployeeTemplate
 
     public function work()
     {
-        echo "Write code...";
+        echo 'Write code...';
     }
 
     public function takePause()
     {
-        echo "Lunch and sleep ...";
+        echo 'Lunch and sleep ...';
     }
 }

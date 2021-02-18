@@ -4,22 +4,22 @@ abstract class EmployeeTemplate
 {
      public function start()
     {
-        echo "Starting at 8 am...";
+        echo 'Starting at 8 am...';
     }
 
     public function work()
     {
-        echo "Performing ...";
+        echo 'Performing ...';
     }
 
     public function takePause()
     {
-        echo "Relax ...";
+        echo 'Relax ...';
     }
 
     public function stop()
     {
-        echo "Stopping...";
+        echo 'Stopping...';
     }
 
     public function go()
