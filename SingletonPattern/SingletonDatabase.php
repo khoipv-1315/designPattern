@@ -1,6 +1,6 @@
 <?php
 
-class databaseSingleton
+class SingletonDatabase
 {
     private $record;
     private $name;
@@ -14,7 +14,7 @@ class databaseSingleton
     public static function getInstance($name)
     {
         if (self::$singletonObject == null) {
-            self::$singletonObject = new databaseSingleton($name);
+            self::$singletonObject = new SingletonDatabase($name);
         }
 
         return self::$singletonObject;
